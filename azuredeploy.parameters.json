@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "arafato"
+    },
+    "adminPassword": {
+      "value": "Passw0rd!"
+    },
+    "dnsLabelPrefix": {
+      "value": "dnsPrefix"
+    },
+    "vmSize": {
+      "value": "Standard_DS2"
+    },
+    "sizeOfEachDataDiskInGB": {
+      "value": "100"
+    }
+  }
+}
