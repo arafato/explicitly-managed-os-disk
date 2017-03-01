@@ -1,4 +1,4 @@
-# VM with explicit Managed Disk (OS)
+# VM with explicit Managed Disk (OS + Data)
 
 Provisions a Linux VM (Ubuntu) with an explicitly defined managed OS-Disk.
 ```
