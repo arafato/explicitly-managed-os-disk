@@ -134,7 +134,7 @@
         "creationData": {
           "createOption": "FromImage",
           "imageReference": {
-            "id": "/Subscriptions/8d4dee44-4b28-4e05-9927-3a5d34a42bf5/Providers/Microsoft.Compute/Locations/westeurope/Publishers/Canonical/ArtifactTypes/VMImage/Offers/UbuntuServer/Skus/16.04-LTS/Versions/latest"
+            "id": "/Subscriptions/8d4dee44-4b28-4e05-9927-3a5d34a42bf5/Providers/Microsoft.Compute/Locations/northeurope/Publishers/Canonical/ArtifactTypes/VMImage/Offers/UbuntuServer/Skus/16.04-LTS/Versions/latest"
           }
         }
       }
@@ -159,8 +159,7 @@
       "location": "[resourceGroup().location]",
       "dependsOn": [
         "[concat('Microsoft.Storage/storageAccounts/', variables('storageAccountName'))]",
-        "[concat('Microsoft.Network/networkInterfaces/', variables('nicName'))]",
-        "[concat('Microsoft.Compute/disks/', 'osDisk')]"
+        "[concat('Microsoft.Network/networkInterfaces/', variables('nicName'))]"
       ],
       "properties": {
         "hardwareProfile": {

@@ -9,7 +9,7 @@
       "value": "Passw0rd!"
     },
     "dnsLabelPrefix": {
-      "value": "dnsPrefix"
+      "value": "dnsprefix"
     },
     "vmSize": {
       "value": "Standard_DS2"
